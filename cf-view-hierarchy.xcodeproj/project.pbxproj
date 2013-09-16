@@ -21,6 +21,8 @@
 		3C69D86417E26EBD00241E22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69D84617E26EBC00241E22 /* UIKit.framework */; };
 		3C69D86C17E26EBD00241E22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C69D86A17E26EBD00241E22 /* InfoPlist.strings */; };
 		3C69D86E17E26EBD00241E22 /* cf_view_hierarchyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69D86D17E26EBD00241E22 /* cf_view_hierarchyTests.m */; };
+		3C69D87917E26F6300241E22 /* VHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69D87817E26F6300241E22 /* VHView.m */; };
+		3C69D87C17E2743500241E22 /* VHBubblesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69D87B17E2743500241E22 /* VHBubblesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3C69D86917E26EBD00241E22 /* cf-view-hierarchyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cf-view-hierarchyTests-Info.plist"; sourceTree = "<group>"; };
 		3C69D86B17E26EBD00241E22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C69D86D17E26EBD00241E22 /* cf_view_hierarchyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cf_view_hierarchyTests.m; sourceTree = "<group>"; };
+		3C69D87717E26F6300241E22 /* VHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHView.h; sourceTree = "<group>"; };
+		3C69D87817E26F6300241E22 /* VHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHView.m; sourceTree = "<group>"; };
+		3C69D87A17E2743500241E22 /* VHBubblesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHBubblesView.h; sourceTree = "<group>"; };
+		3C69D87B17E2743500241E22 /* VHBubblesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHBubblesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				3C69D85117E26EBC00241E22 /* VHAppDelegate.h */,
 				3C69D85217E26EBC00241E22 /* VHAppDelegate.m */,
 				3C69D85417E26EBC00241E22 /* Main.storyboard */,
+				3C69D87717E26F6300241E22 /* VHView.h */,
+				3C69D87817E26F6300241E22 /* VHView.m */,
+				3C69D87A17E2743500241E22 /* VHBubblesView.h */,
+				3C69D87B17E2743500241E22 /* VHBubblesView.m */,
 				3C69D85717E26EBC00241E22 /* VHViewController.h */,
 				3C69D85817E26EBC00241E22 /* VHViewController.m */,
 				3C69D85A17E26EBC00241E22 /* Images.xcassets */,
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C69D87917E26F6300241E22 /* VHView.m in Sources */,
 				3C69D85317E26EBC00241E22 /* VHAppDelegate.m in Sources */,
 				3C69D85917E26EBC00241E22 /* VHViewController.m in Sources */,
+				3C69D87C17E2743500241E22 /* VHBubblesView.m in Sources */,
 				3C69D84F17E26EBC00241E22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +473,7 @@
 				3C69D87317E26EBD00241E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C69D87417E26EBD00241E22 /* Build configuration list for PBXNativeTarget "cf-view-hierarchyTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				3C69D87617E26EBD00241E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
